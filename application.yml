@@ -6,7 +6,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/yannchoho/puzzle-deployment.git
-    targetRevision: pierreBranch
+    targetRevision: main
     path: deployment
   destination:
     server: https://kubernetes.default.svc
