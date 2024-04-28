@@ -5,7 +5,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/yannchoho/puzzle-deployment.git
+    repoURL: https://github.com/yann-choho/puzzle-deployment.git
     targetRevision: main
     path: deployment
   destination:
