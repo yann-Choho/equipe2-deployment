@@ -27,17 +27,6 @@ February 2024 - May 2024
 * Pierre REGNARD
 
 
-<p align="center">
-  <img src="static/images/examples/_1.jpg" alt="Grayscale" width = "300">
-  <br>
-  <em>Original image</em>
-</p>
-
-<p align="center">
-  <img src="static/images/examples_with_color/_1.jpg" alt="Colorized" width = "300">
-  <br>
-  <em>Colorized image</em>
-</p>
 
 </section>
 <section id="track chosen :-dashboard-interactive-app" class="level3">
