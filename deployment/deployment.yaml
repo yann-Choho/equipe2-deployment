@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: puzzle
-        image: yannchoho/puzzle-colorization:pierreBranch
+        image: yannchoho/puzzle-colorization:main
         ports:
         - containerPort: 5000
