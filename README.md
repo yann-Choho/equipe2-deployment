@@ -99,7 +99,7 @@ This repository contains all files allowing to deploy the application. The main 
 
 
 ## Link to the CD git repo 
-By using this link [this link](https://github.com/yann-Choho/Colorizing-puzzle-app-improved.git), you can access the git repository containing all the scripts used to set up the application
+By using [this link](https://github.com/yann-Choho/Colorizing-puzzle-app-improved.git), you can access the git repository containing all the scripts used to set up the application
 
 ## Link to the website of the application
 By using [this link](https://puzzle.kub.sspcloud.fr/), you can access directly the website application and enjoy it !
