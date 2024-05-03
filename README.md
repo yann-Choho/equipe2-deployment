@@ -93,7 +93,7 @@ February 2024 - May 2024
 ## Introduction
 
 This application allows you to solve a puzzle of a black-and-white image. Once the puzzle is finished, the image is colorized by a Deep Learning model and appears on your screen! \
-On the menu page, you can choose between 2 types of puzzle : sliding puzzle and free movement puzzle. \
+On the menu page, you can choose between 2 types of puzzle : sliding puzzle and free movement puzzle.
 
 This repository contains all files allowing to deploy the application. The main repository for the application is available below. 
 
