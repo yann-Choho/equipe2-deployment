@@ -98,7 +98,7 @@ On the menu page, you can choose between 2 types of puzzle : sliding puzzle and 
 This repository contains all files allowing to deploy the application. The main repository for the application is available below. 
 
 
-## Link to the CD git repo 
+## Link to the main git repo 
 By using [this link](https://github.com/yann-Choho/Colorizing-puzzle-app-improved.git), you can access the git repository containing all the scripts used to set up the application
 
 ## Link to the website of the application
