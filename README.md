@@ -99,7 +99,7 @@ This repository contains all files allowing to deploy the application. The main 
 
 
 ## Link to the CD git repo 
-[https://github.com/yann-Choho/puzzle-deployment.git](https://github.com/yann-Choho/Colorizing-puzzle-app-improved.git) \
+[lien](https://github.com/yann-Choho/Colorizing-puzzle-app-improved.git) \
 By using this link, you can access the git repository containing all the scripts used to set up the application
 
 ## Link to the website of the application
