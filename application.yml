@@ -5,7 +5,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/yann-choho/Hackaton_AS44.git
+    repoURL: https://github.com/yann-choho/equipe2-deployment.git
     targetRevision: master
     path: deployment
   destination:
