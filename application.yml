@@ -1,12 +1,12 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ensae-mlops
+  name: team2-mlops
 spec:
   project: default
   source:
-    repoURL: https://github.com/yann-choho/puzzle-deployment.git
-    targetRevision: main
+    repoURL: https://github.com/yann-choho/Hackaton_AS44.git
+    targetRevision: master
     path: deployment
   destination:
     server: https://kubernetes.default.svc
