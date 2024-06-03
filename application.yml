@@ -6,7 +6,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/yann-choho/equipe2-deployment.git
-    targetRevision: master
+    targetRevision: main
     path: deployment
   destination:
     server: https://kubernetes.default.svc
