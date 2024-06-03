@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: puzzle-deployment
+  name: team2-deployment
   labels:
-    app: puzzle
+    app: team2
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: puzzle
+      app: team2
   template:
     metadata:
       labels:
-        app: puzzle
+        app: team2
     spec:
       containers:
       - name: puzzle
-        image: yannchoho/puzzle-colorization:main
+        image: yannchoho/team2:master
         ports:
         - containerPort: 5000
