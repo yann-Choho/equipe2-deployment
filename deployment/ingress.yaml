@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: puzzle-ingress
+  name: team2-ingress
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
     # Enable CORS by adding these annotations
@@ -14,15 +14,15 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - puzzle.kub.sspcloud.fr
+    - team2.kub.sspcloud.fr
   rules:
-  - host: puzzle.kub.sspcloud.fr
+  - host: team2.kub.sspcloud.fr
     http:
       paths:
       - path: /
         pathType: Prefix
         backend:
           service:
-            name: puzzle-service
+            name: team2-service
             port:
               number: 80
