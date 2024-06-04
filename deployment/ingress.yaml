@@ -4,7 +4,6 @@ metadata:
   name: team2-ingress
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
-    # Enable CORS by adding these annotations
     nginx.ingress.kubernetes.io/enable-cors: "true"
     nginx.ingress.kubernetes.io/cors-allow-methods: "PUT, GET, POST, DELETE, PATCH, OPTIONS"
     nginx.ingress.kubernetes.io/cors-allow-credentials: "true"
