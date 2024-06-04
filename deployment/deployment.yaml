@@ -1,11 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: team2-deployment
-  labels:
-    app: team2
+  name: team2-mlops
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: team2
@@ -15,7 +13,7 @@ spec:
         app: team2
     spec:
       containers:
-      - name: puzzle
+      - name: team2-mlops
         image: yannchoho/team2:master
         ports:
         - containerPort: 5000
