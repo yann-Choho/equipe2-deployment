@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: team2-mlops
+  name: team-mlops
 spec:
   project: default
   source:
