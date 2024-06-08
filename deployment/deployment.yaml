@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: team2-mlops
+  name: team-mlops
   labels:
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: team2
+      app: team
   template:
     metadata:
       labels:
-        app: team2
+        app: team
     spec:
       containers:
-      - name: team2-mlops
+      - name: team-mlops
         image: yannchoho/team2:master
         ports:
         - containerPort: 5000
